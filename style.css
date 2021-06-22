@@ -9,12 +9,16 @@ body {
   grid-template-columns: 200px 250px;
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 20px;
-  justify-content: space-around;
-  align-content: stretch;
-  height: 100vh;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
 .grid__items {
   border: 1px solid #f00;
   background-color: hsl(250, 40%, 17%);
+}
+
+.grid__item__1 {
+  align-self: start;
+  justify-self: center;
 }
